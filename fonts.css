@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Noer Mala Script';
+    src: url('fonts/NoerMalaScript.woff2') format('woff2'),
+        url('fonts/NoerMalaScript.woff') format('woff'),
+        url('fonts/NoerMalaScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Noer Mala Script slant';
+    src: url('fonts/NoerMalaScriptslant-slant.woff2') format('woff2'),
+        url('fonts/NoerMalaScriptslant-slant.woff') format('woff'),
+        url('fonts/NoerMalaScriptslant-slant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Perfume';
+    src: url('fonts/Perfume.woff2') format('woff2'),
+        url('fonts/Perfume.woff') format('woff'),
+        url('fonts/Perfume.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Rock n Doll Script';
+    src: url('fonts/RocknDollScript.woff2') format('woff2'),
+        url('fonts/RocknDollScript.woff') format('woff'),
+        url('fonts/RocknDollScript.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'The Paragraph Script';
+    src: url('fonts/TheParagraphScript.woff2') format('woff2'),
+        url('fonts/TheParagraphScript.woff') format('woff'),
+        url('fonts/TheParagraphScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* Indestructible Type*/
+
+@font-face {
+    font-family: 'CopperplateCC';
+    src: url('fonts/CopperplateCC.woff2') format('woff2'),
+        url('fonts/CopperplateCC.woff') format('woff'),
+        url('fonts/CopperplateCC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'BodoniModa06pt-Book';
+    src: url('fonts/BodoniModa06pt-Book.woff2') format('woff2'),
+        url('fonts/BodoniModa06pt-Book.woff') format('woff'),
+        url('fonts/BodoniModa06pt-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'EngravingCC';
+    src: url('fonts/EngravingCC.woff2') format('woff2'),
+        url('fonts/EngravingCC.woff') format('woff'),
+        url('fonts/EngravingCC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'RailroadGothicCC';
+    src: url('fonts/RailroadGothicCC.woff2') format('woff2'),
+        url('fonts/RailroadGothicCC.woff') format('woff'),
+        url('fonts/RailroadGothicCC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'EngravingUnshadedCC';
+    src: url('fonts/EngravingUnshadedCC.woff2') format('woff2'),
+        url('fonts/EngravingUnshadedCC.woff') format('woff'),
+        url('fonts/EngravingUnshadedCC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Jost-Book';
+    src: url('fonts/Jost-Book.woff2') format('woff2'),
+        url('fonts/Jost-Book.woff') format('woff'),
+        url('fonts/Jost-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'notearsbold';
+    src: url('fonts/notearsbold.woff2') format('woff2'),
+        url('fonts/notearsbold.woff') format('woff'),
+        url('fonts/notearsbold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'gnomon-it-foreground';
+    src: url('fonts/gnomon-it-foreground.woff2') format('woff2'),
+        url('fonts/gnomon-it-foreground.woff') format('woff'),
+        url('fonts/gnomon-it-foreground.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'DraftingMono-Regular';
+    src: url('fonts/DraftingMono-Regular.woff2') format('woff2'),
+        url('fonts/DraftingMono-Regular.woff') format('woff'),
+        url('fonts/DraftingMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Besley-Fatface';
+    src: url('fonts/Besley-Fatface.woff2') format('woff2'),
+        url('fonts/Besley-Fatface.woff') format('woff'),
+        url('fonts/Besley-Fatface.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'TiffanyGothicCC';
+    src: url('fonts/TiffanyGothicCC.woff2') format('woff2'),
+        url('fonts/TiffanyGothicCC.woff') format('woff'),
+        url('fonts/TiffanyGothicCC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
