@@ -7,7 +7,7 @@ const fontList = ['Noer Mala Script', 'Noer Mala Script slant', 'Perfume', 'Rock
 const getRandomColor = () => {
   const h = Math.round(Math.random() * 360),  // max value of h is 360
         s = Math.round(Math.random() * 100) + '%',  // max value of s is 100%
-        l = (Math.floor(Math.random() * 75) + 15) + '%';  // max value of l is 100%
+        l = (Math.floor(Math.random() * 70) + 20) + '%';  // max value of l is 100%
   return `hsl(${h},${s},${l})`;
 };
 
