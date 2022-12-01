@@ -11,6 +11,13 @@ const getRandomColor = () => {
   return `hsl(${h},${s},${l})`;
 };
 
+const getRandomBackgroundColor = () => {
+  const h = Math.round(Math.random() * 360),  // max value of h is 360
+        s = Math.round(Math.random() * 100) + '%',  // max value of s is 100%
+        l = (Math.floor(Math.random() * 70) + 20) + '%';  // max value of l is 100%
+  return `hsl(${h},${s},${l})`;
+};
+
 let lastNumber = 0;
 const getRandomNumber = (array) => {
   let randomNumber = Math.floor(Math.random() * array.length);  
@@ -25,9 +32,16 @@ const getRandomNumber = (array) => {
   }
 };
 
-function changeText(array) {
+// function changeText(array) {
+//   disconnect.style.fontFamily = getRandomNumber(fontList);
+//   disconnect.style.color = getRandomColor();
+// }
+
+document.body.addEventListener('click', (array) => {
+  if (disconnect.innerText != "just disconnect") {
+    disconnect.innerText = "just disconnect"
+  }
   disconnect.style.fontFamily = getRandomNumber(fontList);
   disconnect.style.color = getRandomColor();
-}
-
-document.body.addEventListener('click', changeText);
+  document.body.style.backgroundColor = getRandomBackgroundColor();
+});
