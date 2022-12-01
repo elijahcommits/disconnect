@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-transition: background-color 750ms ease-in-out, color 300ms ease-out;
+  -ms-transition: background-color 750ms ease-in-out, color 300ms ease-out;
+  transition: background-color 750ms ease-in-out, color 300ms ease-out;
 }
 
 #disconnect {
